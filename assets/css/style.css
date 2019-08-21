@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+body * {
+  margin: 0px;
+  padding: 0px;
+  border:0px;
+    /* border:1px solid red; */
+}
+
+p{
+  margin-bottom: 15px;
+  line-height: 160%;
+  font-size: 16px;
+}
+
+.headerIguanas{
+  background: url('../img/bg-header.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height:800px;
+  position: relative;
+  background-position-y: 70px;
+}
+
+.headerIguanas h1{
+  font-size: 50px;
+  font-weight: 500;
+  padding: 10px;
+  background:#000000;
+  position:fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.desc-section{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #000000;
+  padding: 45px 0px;
+  text-align: left;
+}
+
+.contenedor{
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  overflow: hidden;
+  /* background: grey; */
+}
+
+.contenedorPadre{
+  width: 80%;
+  margin: 0px auto;
+  height: auto;
+  display: table;
+}
+.contenedorTexto{
+  vertical-align: middle;
+  display: table-cell;
+  text-align: left;
+  padding: 0px 120px 0px 0px;
+}
+
+.contenedorImagen{
+  vertical-align: middle;
+  display: table-cell;
+  text-align: right;
+  width: 42%;
+}
+
+.contenedorImagen img{
+  max-width: 100%;
+  height: auto;
+  width:100%;
+}
+
+.iconoSection{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 75px 0px 85px 0px;
+  background: #1E1A13;
+}
+
+.iconoSection h2{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 75px;
+  letter-spacing: 1px;
+}
+
+.iconoSection h3{
+  margin: 20px 0px 20px 0px;
+  font-size: 24px;
+  font-weight: 300;
+  /* margin-bottom: 75px; */
+}
+
+.articleIconos{
+  width: 33.3333333333%;
+  display: inline-block;
+  /* background: red; */
+  text-align: center;
+  float: left;
+}
+
+.galeria{
+  width: 100%;
+  height: auto;
+  background: #000;
+  padding: 50px 0px 50px 0px;
+}
+
+.articleImg{
+  width:33.3333333333%;
+  height: 277px;
+  float: left;
+  overflow: hidden;
+  padding: 0px 10px 0px 10px;
+}
+
+.articleImg img {
+  width: 100%;
+  max-width: 100%;
+  height: 280px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    padding: 35px 0px 35px 0px;
+    background: #1E1A13;
+}
+
+footer p{
+  margin: 0px;
+  font-size: 18px;
+}
